@@ -18,7 +18,7 @@ class String
     splitted = self.split
     compacted = splitted.compact
     deleted = compacted.delete("")
-    deleted.count
+    deleted
 
 
   end
