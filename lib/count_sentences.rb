@@ -17,6 +17,7 @@ class String
   def count_sentences
     split = self.split
     compacted = split.compact
+    compacted.count
 
   end
 end
