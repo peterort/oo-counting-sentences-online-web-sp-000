@@ -16,8 +16,7 @@ class String
 
   def count_sentences
     self.split
-    self.compact!
-    self.count
+  
 
   end
 end
