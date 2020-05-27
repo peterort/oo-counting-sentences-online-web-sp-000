@@ -15,11 +15,7 @@ class String
   end
 
   def count_sentences
-    splitted = self.split
-    compacted = splitted.compact
-    deleted = compacted.clear("")
-    deleted.count
-
-
+    array = self.split(/[.?!]/)
+    array.length
   end
 end
